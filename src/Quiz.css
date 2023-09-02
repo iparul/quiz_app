@@ -1,0 +1,37 @@
+.quiz-container {
+  margin: 20px;
+}
+
+.questions {
+  border: 5px solid green;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.options {
+  display: flex;
+}
+
+.timimg {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+}
+.notSelected {
+  padding: 10px;
+}
+
+.selected {
+  padding: 10px;
+  background-color: rgb(96, 195, 234);
+  color: white;
+  border: none;
+}
+
+.submitButton {
+  padding: 10px 5px;
+  margin-top: 80px;
+  width: 15%;
+  background: green;
+  color: white;
+}

@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Add this CSS to your stylesheet or a separate CSS file */
+.navigation {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation button {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation button.visited-selected {
+  background-color: blue; /* Blue for visited and selected questions */
+  color: #fff;
+  border-color: blue;
+}
+
+.navigation button.visited-not-selected {
+  background-color: red; /* Red for visited but not selected questions */
+  color: #fff;
+  border-color: red;
+}
+
+.navigation button.not-visited {
+  background-color: gray; /* Gray for unvisited questions */
+  color: #fff;
+  border-color: gray;
 }

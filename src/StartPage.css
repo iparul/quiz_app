@@ -1,0 +1,57 @@
+.start-page {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 170px;
+}
+.first-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.welcome-meg {
+  font-size: 24px;
+  font-weight: bold;
+}
+.first-duSize {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.duration {
+  background: #eeeded;
+  width: 40%;
+  padding: 6px 6px;
+  height: 50px;
+}
+.size {
+  background: #eeeded;
+  width: 40%;
+  padding: 6px 6px;
+  height: 50px;
+}
+.second-section {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 40%;
+}
+
+.enterEmail {
+  font-size: 40px;
+  font-weight: 400;
+}
+.emailText {
+  padding: 15px 5px;
+  margin-top: 50px;
+}
+.enterButton {
+  padding: 10px 5px;
+  margin-top: 30px;
+  width: 40%;
+  background: green;
+  color: white;
+}
